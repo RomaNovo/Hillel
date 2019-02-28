@@ -1,5 +1,5 @@
 // ============ VERSION 1 ---- start
-/* class LocalStrg {
+class LocalStrg {
 	constructor(prop) {
 		this.prop = prop;
 		this.localStr = window.localStorage;
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		stor.clear();
 		window.location.reload();
 	})
-})  */
+})  
 // ============ VERSION 1 ---- end
 
 
