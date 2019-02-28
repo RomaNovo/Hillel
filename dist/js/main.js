@@ -124,21 +124,3 @@ document.addEventListener('DOMContentLoaded', () => {
 // ============ VERSION 2 ---- end
 
 
-let promise = new Promise( (resolve,reject) => {
-	let str = 'str';
-	setTimeout(() => {
-		resolve(str);
-	}, 5000);
-	
-})
-
-promise.then(str => {
-	console.log(str);
-	promise.then(str => console.log(str))
-	console.log('hi')
-	promise.then(str => console.log(str))
-	console.log('hi')
-	promise.then(str => console.log(str))
-	promise.then(str => console.log(str))
-
-})
