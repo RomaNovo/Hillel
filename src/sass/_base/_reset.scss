@@ -1,0 +1,15 @@
+* {
+	box-sizing: border-box;
+}
+
+a,
+input,
+textarea, 
+button {
+	text-decoration: none;
+	&:hover,
+	&:focus {
+		outline: none;
+	}
+}
+
